@@ -1,0 +1,53 @@
+/* Default Theme */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    background: #ff5100;
+    color: rgb(18, 17, 17);
+}
+
+.theme-buttons button {
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.theme-buttons button:hover {
+    opacity: 0.8;
+}
+
+/* Sections */
+.section {
+    padding: 50px;
+    transition: background 0.5s, color 0.5s;
+}
+
+/* Light Theme */
+.light {
+    background: #ffffff;
+    color: #333;
+}
+
+/* Dark Theme */
+.dark {
+    background: #222;
+    color: #fff;
+}
+
+/* Custom Theme */
+.custom {
+    background: #00d5ffcc;
+    color: #222;
+}
